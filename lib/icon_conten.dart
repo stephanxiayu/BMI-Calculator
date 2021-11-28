@@ -1,8 +1,9 @@
 
 
+import 'package:angela_bmi_5/constants.dart';
 import 'package:flutter/material.dart';
 
-const labelTextStyle= TextStyle(fontSize: 18, color: Colors.grey);
+
 
 class IconContent extends StatelessWidget {
   IconContent({this.icon, this.label});
