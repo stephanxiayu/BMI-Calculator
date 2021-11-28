@@ -22,10 +22,12 @@ void updateColour (int gender){
 if (gender==1){
   if (maleCardColour== inaktiveCardColor){
     maleCardColour= activeCardColor;
+    femaleCardColour=inaktiveCardColor;
   }else{maleCardColour=inaktiveCardColor;}
 }if (gender==2){
   if (femaleCardColour== inaktiveCardColor){
     femaleCardColour= activeCardColor;
+    maleCardColour=inaktiveCardColor;
   }else{femaleCardColour=inaktiveCardColor;}
 }
 
